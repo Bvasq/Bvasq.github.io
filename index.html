@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Tu Nombre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- ── Nav ── -->
+<nav>
+  <a href="#hero" class="nav-logo">B.V.G</a>
+  <ul class="nav-links">
+    <li><a href="#about">Sobre mí</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Proyectos</a></li>
+    <li><a href="#experience">Experiencia</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<section id="hero">
+  <p class="hero-label">Aprendizaje continuo</p>
+  <h1 class="hero-name" style="color: #118ab2">Bastian<br><span class="apellido" style="color: black;">Vásquez.</span></h1>
+  <p class="hero-role">Ingeniero informático · Data Analytic · Backend </p>
+  <p class="hero-desc">
+Ingeniero Informático con mención en Ciencia de Datos, orientado al análisis de datos y Business Intelligence, 
+con experiencia tanto en analítica como en programación. Manejo de procesos ETL, 
+modelamiento de datos, SQL y desarrollo de dashboards en Power BI para transformar datos en indicadores que apoyen la toma de decisiones, 
+además de habilidades en desarrollo con Python para automatización y procesamiento de información.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">Ver proyectos →</a>
+    <a href="#contact" class="btn btn-ghost">Contáctame</a>
+  </div>
+  <div class="hero-stats">
+    <div>
+      <span class="stat-num">1</span>
+      <span class="stat-label">Proyectos</span>
+    </div>
+    <div>
+      <span class="stat-num">4</span>
+      <span class="stat-label">Años estudiando</span>
+    </div>
+    <div>
+      <span class="stat-num">5</span>
+      <span class="stat-label">Tecnologías core</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ── -->
+<section id="about">
+  <div class="section-wrap">
+    <p class="section-tag reveal" style="color: white;">sobre mí</p>
+    <h2 class="section-title reveal">Quién soy<br></h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          Soy <strong class="letra" style="font-size: medium;">Bastian Vásquez</strong>, ingeniero informático con mención en ciencia de datos egresado de
+          Duoc UC en 2026. Me especializo en el analisis de datos y el desarrollo de software.
+        </p>
+        <p>
+          Destaco por mi capacidad de <strong class="letra" style="font-size: medium;">resolución de problemas y pensamiento analítico,</strong> lo que me permite abordar
+          desafíos de manera estructurada y orientada a soluciones.
+          Cuento con habilidades de organización y gestión del tiempo que me permiten cumplir objetivos de
+          manera eficiente, junto con una fuerte disposición al aprendizaje continuo y desarrollo profesional.
+        </p>
+        <p>
+          Fuera del código, me interesan la arquitectura de software, los sistemas
+          distribuidos y cómo la tecnología puede impactar positivamente en las personas.
+        </p>
+      </div>
+      <div class="terminal reveal">
+        <div class="terminal-bar">
+          <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+          <span class="terminal-name">perfil.json</span>
+        </div>
+        <div class="terminal-body">
+          <span class="t-line"><span class="t-prompt">{</span></span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"nombre"</span>: <span class="t-val">"Bastian Vásquez"</span>,</span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"rol"</span>: <span class="t-val">"Ing. Informático"</span>,</span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"universidad"</span>: <span class="t-val">"Duoc UC"</span>,</span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"egreso"</span>: <span class="t-val">"2026"</span>,</span>
+          <span class="t-blank"></span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"stack_principal"</span>: [</span>
+          <span class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"Python"</span>, <span class="t-val">"Javascript"</span>,</span>
+          <span class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"PostgreSQL"</span>
+          <span class="t-line">&nbsp;&nbsp;],</span>
+          <span class="t-blank"></span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"disponible"</span>: <span class="t-val" style="color:var(--accent)">true</span>,</span>
+          <span class="t-line">&nbsp;&nbsp;<span class="t-key">"ubicacion"</span>: <span class="t-val">"Santiago, Chile"</span></span>
+          <span class="t-line"><span class="t-prompt">}</span> <span class="cursor-blink"></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ── -->
+<section id="skills">
+  <div class="section-wrap">
+    <p class="section-tag reveal" style="color: black;">competencias</p>
+    <h2 class="section-title reveal" style="color: black;">Stack técnico.</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚙️</div>
+        <div class="skill-cat">Backend & APIs</div>
+        <div class="skill-tags">
+          <span class="tag">Python</span><span class="tag">Node.js</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">REST</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-cat">Bases de Datos</div>
+        <div class="skill-tags">
+          <span class="tag">PostgreSQL</span><span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <div class="skill-cat">BI & Analytic</div>
+        <div class="skill-tags">
+          <span class="tag">Power BI</span><span class="tag">Power Query</span>
+          <span class="tag">ETL</span><span class="tag">Data Modeling</span>
+          <span class="tag">DAX</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🚀</div>
+        <div class="skill-cat">DevOps & Cloud</div>
+        <div class="skill-tags">
+          <span class="tag">GitHub Actions</span>
+          <span class="tag">AWS (básico)</span><span class="tag">Linux</span>
+          <span class="tag">Nginx</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-cat">Frontend</div>
+        <div class="skill-tags">
+          <span class="tag">React</span><span class="tag">TypeScript</span>
+          <span class="tag">HTML/CSS</span><span class="tag">Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🧰</div>
+        <div class="skill-cat">Herramientas</div>
+        <div class="skill-tags">
+          <span class="tag">Git</span><span class="tag">Figma</span>
+          <span class="tag">Postman</span><span class="tag">Jira</span>
+          <span class="tag">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Proyectos── -->
+<section id="projects">
+  <div class="section-wrap">
+    <p class="section-tag reveal" style="color: white;">trabajo</p>
+    <h2 class="section-title reveal">Proyectos destacados.</h2>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-num">01</span>
+          <div style="display:flex;gap:8px;align-items:center">
+            <span class="featured-badge">★ Featured</span>
+            <div class="project-links">
+              <a href="https://github.com/Bvasq/Capstone/tree/master"
+              target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-title">Sistema de Gestión</div>
+        <div class="project-desc">
+Sistema de Gestion dedicado para una botillería local, controlando
+inventario, ventas, gestión de usuarios.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag" style="color: black;">Python</span>
+          <span class="stack-tag" style="color: black;" >FastAPI</span>
+          <span class="stack-tag" style="color: black;">scikit-learn</span>
+          <span class="stack-tag" style="color: black;">PostgreSQL</span>
+          <span class="stack-tag" style="color: black;">Docker</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-header">
+          <span class="project-num">02</span>
+          <div class="project-links">
+            <a href="https://app.powerbi.com/groups/me/reports/322c14b0-2e63-48cc-b8be-0bf6ee1415b8/b51451f1751aabdac2a6?experience=power-bi"
+            target="_blank" rel="noopener noreferrer">Ver ↗</a>
+          </div>
+        </div>
+        <div class="project-title">Análisis de torneos</div>
+        <div class="project-desc">
+          Práctica profesional en donde se analizaron 35 torneos de natación,
+          obteniendo datos importantes para los clubes. Para una posterior presentacion
+          de los mismos.
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag" style="color: black;">Power BI</span>
+          <span class="stack-tag" style="color: black;">Excel</span>
+          <span class="stack-tag" style="color: black;">Power Query</span>
+          <span class="stack-tag" style="color: black;">DAX</span>
+          <span class="stack-tag" style="color: black;">Data Modeling</span>
+        </div>
+      </div>
+</section>
+
+<!-- ── Experience ── -->
+<section id="experience">
+  <div class="section-wrap">
+    <p class="section-tag reveal" style="color: black;">trayectoria</p>
+    <h2 class="section-title reveal" style="color: black;">Experiencia &<br>formación.</h2>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">
+          <div class="dot-circle"></div>
+          <div class="timeline-date">2026</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-role">Práctica Profesional — Consultor BI</div>
+          <div class="timeline-company">BICA · Santiago, Chile</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Desarrollo  de  procesos  ETL  para extracción y transformación
+                de datosdesde archivos PDF a Excel.</li>
+              <li>Limpieza, estructuración y modelamientode datos para su integración en Power BI</li>
+              <li>Desarrollo de dashboards y visualizaciones para facilitar el análisis de información</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">
+          <div class="dot-circle"></div>
+          <div class="timeline-date">2025</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-role">Proyecto de Titulación</div>
+          <div class="timeline-company">DUOC UC · Ingeniería en Informática</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Sistema de gestión para botillerías</li>
+              <li>Reportes de KPI'S Claves para el cliente</li>
+              <li>Cierre de caja</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">
+          <div class="dot-circle"></div>
+          <div class="timeline-date">2022–2026</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-role">Ingeniería en Informática</div>
+          <div class="timeline-company">DUOC UC</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Mención en Ciencia de datos.</li>
+              <li>Fuerte base en bases de datos, algoritmos y programación.</li>
+              <li>Automatización de procesos ETL para limpieza y transformación de información.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Contacto ── -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="contact-inner">
+      <p class="section-tag reveal" style="color: black;">contacto</p>
+      <h2 class="contact-title reveal">¿Construimos<br>algo? <span>Contáctame</span></h2>
+      <p class="contact-sub reveal">
+        Estoy disponible para posiciones full-time, contratos y colaboraciones.
+        Si tienes un proyecto interesante o una oportunidad, escríbeme.
+      </p>
+      <div class="contact-links reveal">
+        <a href="mailto:basstivas@gmail.com" class="contact-link">
+          ✉ basstivas@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/bastianpvasquezgonzalez/" class="contact-link" target="_blank">
+          in LinkedIn
+        </a>
+
+        <a href="CV-ACTUALIZADO-1.pdf" download="CV-BVasquez.pdf"  class="contact-link" download>
+          ↓ Descargar CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer>
+  <span>Bastian Patricio Vásquez González</span>
+  <span>Diseñado & construido con <span>♥</span> · 2026</span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
