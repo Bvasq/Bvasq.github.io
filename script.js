@@ -32,3 +32,17 @@
       a.style.color = a.getAttribute('href') === '#' + current ? 'var(--accent)' : '';
     });
   });
+
+const fechaInicio = new Date('2026-04-30');
+const fechaActual = new Date();
+
+let anios = fechaActual.getFullYear() - fechaInicio.getFullYear();
+let meses = fechaActual.getMonth() - fechaInicio.getMonth();
+
+let totalMeses = (anios * 12) + meses;
+
+if (totalMeses < 0) {
+  totalMeses = 0;
+}
+
+document.getElementById('meses-trabajando').textContent = totalMeses;

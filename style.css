@@ -27,7 +27,6 @@
     overflow-x: hidden;
     cursor: none;
   }
-
   /* ── Custom cursor ── */
   #cursor {
     position: fixed; top: 0; left: 0; z-index: 9999;
